@@ -1,0 +1,31 @@
+#ball
+{
+    position: absolute;
+    background-color: rgb(128, 128, 150);
+    width: 100px;
+    height: 100px;
+    border-radius: 75px;
+    margin-top: -60px;
+    margin-left: 610px;
+}
+#ball_Icon
+{
+    position: sticky;
+    width: 100px;
+    height: 100px;
+    border-radius: 75px;
+    background-color: rgb(128, 128, 150);
+    display:none;
+    /* background-color: black; */
+}
+#ball_Size_Icon
+{
+    /* background-image: url('Img/ICON.png'); */
+    width: 100px;
+    height: 100px;
+}
+#ball:hover #ball_Icon
+{
+    display: block;
+    background-color: white;
+}

@@ -1,0 +1,30 @@
+#LinkButtonBoder
+{
+    /* align-items: center; */
+    margin-top: 70px;
+    text-align: center;
+    background-color: rgb(118, 118, 140);
+    font-size: 23px;
+    height: 45px;
+    width: 160px;
+    text-decoration:none;
+}
+.LinkButton
+{
+    margin-top: 500pt;
+    /* display: inline-block; */
+    width: 160px;
+    height: 100%; 
+    text-decoration:none;
+}
+#MoreInfoLinkButtonBoder
+{
+    margin-top: -45px;
+    margin-left: 400pt;
+    text-align: center;
+    /* background-color: rgb(118, 118, 140); */
+    font-size: 23px;
+    /* /* height: 45px; */
+    width: 160px; 
+    text-decoration:none;
+}
