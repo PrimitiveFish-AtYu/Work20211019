@@ -1,5 +1,6 @@
 let F = true
 let keyCode = 0
+let MusicEnable =false
 document.onkeydown=function(event)
 {
     keyCode=0
@@ -10,7 +11,10 @@ document.onkeyup =function(event)
 {
     keyCode=0
 }
-function EventOnCline()
+function SetMusicEnable(b){
+    MusicEnable = b
+}
+function EventOnRightClick()
 {
     if(keyCode!=17)
         return
@@ -29,6 +33,11 @@ function EventOnCline()
     }
     else
     {
+        if(MusicEnable)
+        {
+            var myAudio = new Audio('music/gawr-gura-a.mp3');
+            myAudio.play();
+        }
         CardPicture.src='Img/GawrGrua.gif'
         ball_Size_Icon.src='Img/Bloop.jpg'
         Bookmarks.style.visibility='hidden'
