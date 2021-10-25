@@ -6,10 +6,12 @@
     <link rel="stylesheet" href="style/Style.css">
     <link rel="stylesheet" href="style/Ball.css">
     <link rel="stylesheet" href="style/LinkButton.css">
+    <script src="script/SwitchGawrGrua.js"></script>
     <style>
         *{
             overflow: hidden;
             font-size: 18px;
+        
         }
     </style>
     <title>CBB110124-Card</title>
@@ -20,10 +22,10 @@
             <img id="CardPicture" 
             src="Img/Kaohsiung_Station.jpg" alt="Kaohsiung_Station" title="Kaohsiung_Station" >
             <div id="Bookmarks"></div>
-            <div><span id="PictureTitle" >高雄火車站 Kaohsiung Station</span></div>
+            <div ><span id="PictureTitle" >高雄火車站 Kaohsiung Station</span></div>
             <!-- Ball  -->
             <div id="ball">
-                <div id="ball_Icon">
+                <div id="ball_Icon" oncontextmenu="EventOnCline()">
                     <img id="ball_Size_Icon" src="Img/ICON.png" alt="ICON">
                 </div>
             </div>
